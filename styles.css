@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://cdn.dribbble.com/users/1657566/screenshots/12131401/media/1d1eb538136fa73adb5f699602c0e5db.gif);
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding-top: 100px;
+}
+
+.cart {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cart h1 {
+    text-align: center;
+}
+
+.cart-items {
+    padding: 10px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cart-item button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.cart-item button:hover {
+    background-color: #ff4433;
+}
+
+.cart-item .like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s;
+}
+.cart-item .like-button:hover {
+    color: #ff6347;
+}
+
+.cart-total {
+    text-align: right;
+    margin-top: 20px;
+}
+
